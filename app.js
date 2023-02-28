@@ -47,34 +47,53 @@
 
 //// Q)4
 
-let studentScore = [320,230,480,120]
-console.log("Un sorted arry :" + studentScore)
-studentScore.sort();
-console.log("Sorted array in ascending order :" + studentScore);
+// let studentScore = [320,230,480,120]
+// console.log("Un sorted arry :" + studentScore)
+// studentScore.sort();
+// console.log("Sorted array in ascending order :" + studentScore);
 
 /// Q)5
 
-let cityNames = ["Karach","Lahore","Islamabad","Quetta","Peshawar"]
-console.log("Cities list:" + cityNames)
-let selected = cityNames.slice(2,-1)
-console.log("selected cities: " + selected)
+// let cityNames = ["Karach","Lahore","Islamabad","Quetta","Peshawar"]
+// console.log("Cities list:" + cityNames)
+// let selected = cityNames.slice(2,-1)
+// console.log("selected cities: " + selected)
 
 ////   Q)6
 
-var arr = ["This","is","my","cat"];
-console.log("Array: " + arr);
-var string = arr.join('');
-console.log("String: " + string)
+// var arr = ["This","is","my","cat"];
+// console.log("Array: " + arr);
+// var string = arr.join('');
+// console.log("String: " + string)
 
 ///// Q)7
 
-let phoneManufacture = ["Apple","Samsung","Motorolla","nokia","Sony","Haier"]
+// var phoneManufacturers = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"];
 
+// document.write("<select>");
+// for(var i = 0; i < phoneManufacturers.length; i++) {
+//     document.write("<option value='" + phoneManufacturers[i] + "'>" + phoneManufacturers[i] + "</option>");
+// }
+// document.write("</select>");
 
+//// Q)8
+// document.write("Devices:<br>")
+// var fifoArray = ["keyboard","mouse","printer","monitor"];
+// document.write(fifoArray[0] + "<br>")
+// document.write(fifoArray[1] + "<br>")
+// document.write(fifoArray[2] + "<br>") 
+// document.write(fifoArray[3] + "<br>")
 
+/// Q)9
 
+document.write("Devices:<br>")
+var lifoArray = ["keyboard","mouse","printer","monitor"];
+document.write(lifoArray[3] + "<br>")
+document.write(lifoArray[2] + "<br>")
+document.write(lifoArray[1] + "<br>") 
+document.write(lifoArray[0] + "<br>")
 
-
+/////////////////////      end                        /////////////////
 
 
 
